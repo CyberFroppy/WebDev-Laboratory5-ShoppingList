@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+h1 {
+  padding: 20px;
+  background-color: skyblue;
+  color: white;
+}
+form {
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+label {
+  margin: 10px;
+}
+#listInput {
+  border-radius: 3px;
+  width: 40%;
+}
+.addItem {
+  border-style: outset;
+  padding: 3px 5px;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px 5px;
+  width: 10%;
+  height: auto;
+  font-weight: bold;
+}
+.addItem:hover {
+  opacity: 0.6;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.checked > p {
+  text-decoration: line-through;
+}
+.list {
+  list-style: none;
+}
+.shopItem {
+  border: 1px solid lightgrey;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 10px;
+  margin: 20px;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.itemShop {
+  font-style: italic;
+}
+.check {
+  background-color: green;
+  margin: 10px 0;
+  padding: 7px 12px;
+  font-size: 15px;
+  border: 0;
+  color: white;
+  border-radius: 3px;
+  text-align: center;
+}
+.del {
+  background-color: red;
+  margin: 10px 0;
+  padding: 7px 12px;
+  font-size: 15px;
+  border: 0;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+.check:hover {
+  background-color: #56e56f;
+}
+.del:hover {
+  background-color: #d9534f;
+}
